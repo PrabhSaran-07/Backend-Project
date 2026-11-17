@@ -1,0 +1,21 @@
+{
+  "name": "mern-book-catalog",
+  "version": "1.0.0",
+  "description": "Full-stack MERN Book Catalog with React, Express, and MongoDB",
+  "scripts": {
+    "dev:server": "cd server && npm run dev",
+    "dev:client": "cd client && npm run dev",
+    "build:client": "cd client && npm run build",
+    "start:server": "cd server && npm start"
+  },
+  "keywords": [
+    "mern",
+    "react",
+    "express",
+    "mongodb",
+    "mongoose"
+  ],
+  "author": "",
+  "license": "ISC"
+}
+
