@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: mern-book-catalog-api
+    runtime: node
+    rootDir: server
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: PORT
+        value: 8800
+      - key: MONGO_URL
+        sync: false
+      - key: JWT_SECRET
+        generateValue: true
