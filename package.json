@@ -16,6 +16,9 @@
     "mongoose"
   ],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^18.0.10",
+    "mongodb": "^7.9.0"
+  }
 }
-
